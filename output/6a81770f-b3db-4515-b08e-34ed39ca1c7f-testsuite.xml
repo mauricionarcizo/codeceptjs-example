@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1538131976168' stop='1538131984973'>
+    <name>My First Test:</name>
+    <title>My First Test:</title>
+    <test-cases>
+        <test-case start='1538131976170' status='passed' stop='1538131984765'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1538131978532' status='passed' stop='1538131981098'>
+                    <name>Eu estou na pagina "https://github.com"</name>
+                    <title>Eu estou na pagina "https://github.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d6d15a67-bb79-4b10-bc1d-033eaf41d49b-attachment.png' type='image/png' size='75748'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538131981098' status='passed' stop='1538131981519'>
+                    <name>Eu vejo "GitHub"</name>
+                    <title>Eu vejo "GitHub"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7c1231da-917f-4526-9acf-f4016f3a1a5a-attachment.png' type='image/png' size='75730'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538131981519' status='passed' stop='1538131982429'>
+                    <name>Eu clico "Sign in", "//html/body/div[1]/header"</name>
+                    <title>Eu clico "Sign in", "//html/body/div[1]/header"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d26d720f-679f-4293-a988-2be15a3cdc68-attachment.png' type='image/png' size='21964'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538131982429' status='passed' stop='1538131982729'>
+                    <name>Eu vejo "Sign in to GitHub", "h1"</name>
+                    <title>Eu vejo "Sign in to GitHub", "h1"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cd048ade-94c4-455d-a6a7-845cd5f95256-attachment.png' type='image/png' size='21948'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538131982729' status='passed' stop='1538131983132'>
+                    <name>Eu preencho o campo "Username or email address", "something@totest.com"</name>
+                    <title>Eu preencho o campo "Username or email address", "something@totest.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='aebdaa45-5baf-45ed-8959-c98980ede6ae-attachment.png' type='image/png' size='23533'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538131983132' status='passed' stop='1538131983540'>
+                    <name>Eu preencho o campo "Password", "123456"</name>
+                    <title>Eu preencho o campo "Password", "123456"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cd51fa57-ce11-4b53-8f8e-1e2f085a97d9-attachment.png' type='image/png' size='23476'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538131983541' status='passed' stop='1538131984408'>
+                    <name>Eu clico "Sign in"</name>
+                    <title>Eu clico "Sign in"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4ad60050-d05b-4caa-bf61-5ef5f42c5551-attachment.png' type='image/png' size='23877'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538131984408' status='passed' stop='1538131984764'>
+                    <name>Eu vejo "Incorrect username or password.", ".flash-error"</name>
+                    <title>Eu vejo "Incorrect username or password.", ".flash-error"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c1790153-9685-4424-ab3d-c624dea78ce5-attachment.png' type='image/png' size='23859'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
